@@ -1,0 +1,21 @@
+Points allotment:
+50% for speedup and performance
+30% for correctness
+20% for code and report
+Rubric:
+Max. of (4, 50 - 50 * (GPU runtime - 5) / 20)
+5 seconds is the best, then a linear decrease up to a time of 20 seconds
+Extra credit awarded to submissions with runtimes less than 5 seconds. For any questions about the grading scheme or regrade requests, please reach out to Prof. Karypis.
+
+
+x500: joo00032
+- Serial runtime: 189.85
+- GPU runtime: 5.00
+- Speedup against serial: 37.98
+- Clustering solution correctness: TRUE
+- Comments: Had to code out the assignments + medoids writes - Speedup points: 50.00
+- Code formatting mistakes: -8.33
+- Speedup + code formatting points: 41.67
+- Correctness points: 30.00
+- Code, report points : 20.00
+- Total: 92
