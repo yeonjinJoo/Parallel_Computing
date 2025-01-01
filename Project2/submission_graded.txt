@@ -1,0 +1,83 @@
+Rubric:
+1M:
+4 threads
+Correctness Score: 3
+Speedup Score (only awarded if correct results) If speedup >= 2.33: 3
+If speedup >= 2.06: 0.75 * 3
+else: 0.5 * 3
+16 threads
+Correctness Score: 5
+Speedup Score (only awarded if correct results) If speedup >= 5: 4
+If speedup >= 3.5: 0.75 * 4
+else: 0.5 * 4
+
+
+10M:
+4 threads
+Correctness Score: 6
+Speedup Score (only awarded if correct results) If speedup >= 2.75: 6
+If speedup >= 2.3: 0.75 * 6
+else: 0.5 * 6
+16 threads
+Correctness Score: 10
+Speedup Score (only awarded if correct results) If speedup >= 7: 8
+If speedup >= 5.5: 0.75 * 8
+else: 0.5 * 8
+
+
+100M:
+4 threads
+Correctness Score: 6
+Speedup Score (only awarded if correct results)
+If speedup >= 2.78: 6
+If speedup >= 2.39: 0.75 * 6
+else: 0.5 * 6
+16 threads
+Correctness Score: 10
+Speedup Score (only awarded if correct results)
+If speedup >= 8.77: 8
+If speedup >= 7.1: 0.75 * 8
+else: 0.5 * 8
+Code + Report: 25
+PS. faster serial runtimes given credit for lower speedups.
+
+
+x500: joo00032
+- 1M serial median runtime: 1.6049
+- 1M 4threads median runtime: 0.9363
+- 4threads speedup: 1.71
+- 4threads speedup score: 1.50
+- 4threads correctness: 1.00
+- 4threads correctness score: 3.00
+- 1M 16threads median runtime: 0.53
+- 16threads speedup: 3.02
+- 16threads speedup score: 2.00
+- 16threads correctness: 1.00
+- 16threads correctness score: 5.00
+- 1M total points: 11.50
+- 10M serial median runtime: 18.51
+- 10M 4threads median runtime: 8.96
+- 4threads speedup: 2.07
+- 4threads speedup score: 3.00
+- 4threads correctness: 1.00
+- 4threads correctness score: 6.00
+- 10M 16threads median runtime: 4.28
+- 16threads speedup: 4.33
+- 16threads speedup score: 4.00
+- 16threads correctness: 1.00
+- 16threads correctness score: 10.00
+- 10M total points: 23.00
+- 100M serial median runtime: 209.27
+- 100M 4threads median runtime: 127.92
+- 4threads speedup: 1.64
+- 4threads speedup score: 3.00
+- 4threads correctness: 1.00
+- 4threads correctness score: 6.00
+- 100M 16threads median runtime: 41.97
+- 16threads speedup: 4.99
+- 16threads speedup score: 4.00
+- 16threads correctness: 1.00
+- 16threads correctness score: 10.00
+- 100M total points: 23.00
+- Comments: Didn't perform even distribution correctly. - Code + Report: 24.00
+- Final Points: 81.50
